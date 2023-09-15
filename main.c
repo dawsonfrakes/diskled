@@ -41,7 +41,7 @@ struct MSG {
 	struct POINT pt;
 	unsigned long lPrivate;
 };
-struct TPMPARAMS { int unimplemented; };
+struct TPMPARAMS;
 
 DLLIMPORT long long __stdcall DefWindowProcA(void *hwnd, unsigned int msg, unsigned long long wp, long long lp);
 DLLIMPORT unsigned short __stdcall RegisterClassA(const struct WNDCLASSA *lpWndClass);
